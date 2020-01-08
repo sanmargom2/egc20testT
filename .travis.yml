@@ -4,6 +4,12 @@ services:
   - postgresql
 addons:
   postgresql: "9.4"
+notifications:
+ email: 
+  recipients: 
+     -santimartin3105@gmail.com
+  on_success: never
+  on_failure: never
 before_script:
   - psql -U postgres -c "create user decide password 'decide'"
   - psql -U postgres -c "create database test_decide owner decide"
