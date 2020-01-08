@@ -5,7 +5,7 @@ services:
     restart: always
     container_name: decide_db
     image: postgres:alpine
-        volumes:
+    volumes:
       - db:/var/lib/postgresql/data
     networks:
       - decide
