@@ -25,7 +25,7 @@ APIS = {
     'voting': 'http://10.5.0.1:8000',
 }
 
-BASEURL = 'http://10.5.0.1:8000'
+BASEURL = 'https://git.heroku.com/santiagomartinapp123.git'
 
 DATABASES = {
     'default': {
